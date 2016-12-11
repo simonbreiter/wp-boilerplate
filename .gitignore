@@ -3,7 +3,7 @@ production-config.php
 wp
 
 .env
-*.css
+**/*/style/*.css
 
 /wp-content/*
 !/wp-content/themes
