@@ -1,0 +1,30 @@
+{
+  "name": "wp-boilerplate",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@gitlab.com:simonbreiter/wp-boilerplate.git",
+  "author": "Simon Breiter <hello@simonbreiter.ch>",
+  "license": "MIT",
+  "scripts": {
+    "setup": "git clone https://github.com/WordPress/WordPress wp; yarn install; composer install",
+    "stylus:dev": "stylus -m --sourcemap-inline -w wp-content/themes/boilerplate/style/main.styl",
+    "stylus:prod": "stylus -c wp-content/themes/boilerplate/style/",
+    "dev": "parallelshell 'yarn stylus:dev' 'webpack -w'",
+    "prod": "parallelshell 'yarn stylus:prod' 'webpack'"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-babili": "^0.0.9",
+    "babel-preset-es2015": "^6.18.0",
+    "parallelshell": "^2.0.0",
+    "path": "^0.12.7",
+    "stylus": "^0.54.5",
+    "webpack": "^1.14.0"
+  }
+}

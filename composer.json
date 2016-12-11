@@ -1,0 +1,18 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/jetpack": "dev-trunk",
+        "wpackagist-plugin/wp-super-cache": "dev-trunk",
+        "wpackagist-plugin/wp-smushit": "dev-trunk",
+        "wpackagist-plugin/theme-check": "dev-trunk",
+        "wpackagist-plugin/simple-page-ordering": "dev-trunk",
+        "wpackagist-plugin/admin-color-schemes": "dev-trunk",
+        "wpackagist-plugin/advanced-custom-fields": "dev-trunk",
+        "wpackagist-plugin/custom-post-type-ui": "dev-trunk"
+    }
+}

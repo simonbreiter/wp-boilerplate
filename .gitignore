@@ -1,0 +1,17 @@
+production-config.php
+
+wp
+
+.env
+*.css
+
+/wp-content/*
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/boilerplate
+
+/node_modules
+
+### Composer template
+composer.phar
+/vendor/
