@@ -1,5 +1,5 @@
 # wp-boilerplate 
-This repository is intended to give developers a all batteries included project 
+This repository is intended to give developers an all batteries included project 
 for a pleasant programming experience with WordPress. Feel free to fork it and 
 customize it to your own liking! 
 
